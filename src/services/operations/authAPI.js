@@ -4,7 +4,7 @@ import { setLoading, setToken } from "../../utils/slices/authSlice"
 // import { resetCart } from "../../slices/cartSlice"
 import { setUser } from "../../utils/slices/profileSlice"
 import { endpoints } from "../api"
-import apiConnector from "../apiConnector"
+import apiConnector from "./apiConnector"
 
 
 

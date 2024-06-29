@@ -3,7 +3,7 @@ import { studentEndpoints } from "../api";
 import rzpLogo from "../../assets/Logo/rzp_logo.png"
 import { setPaymentLoading } from "../../utils/slices/courseSlice";
 import { resetCart } from "../../utils/slices/cartSlice";
-import apiConnector from "../apiConnector"
+import apiConnector from "./apiConnector"
 
 
 
