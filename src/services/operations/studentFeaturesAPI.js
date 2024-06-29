@@ -1,9 +1,9 @@
 import { toast } from "react-hot-toast";
 import { studentEndpoints } from "../api";
-import { apiConnector } from "../apiConnector.js"
 import rzpLogo from "../../assets/Logo/rzp_logo.png"
 import { setPaymentLoading } from "../../utils/slices/courseSlice";
 import { resetCart } from "../../utils/slices/cartSlice";
+import { apiConnector } from "../apiConnector";
 
 
 
