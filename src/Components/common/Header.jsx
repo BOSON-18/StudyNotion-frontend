@@ -10,7 +10,7 @@ import { IoMdCart } from "react-icons/io";
 import ProfileDropDown from "../core/auth/ProfileDropDown";
 import { CartNotVisible } from "../../utils/constants";
 import axios from "axios";
-import { apiConnector } from "../../services/apiConnector";
+import apiConnector from "../../services/operations/apiConnector";
 import { categories } from "../../services/api";
 import { BsChevronDown } from "react-icons/bs"
 import { ACCOUNT_TYPE } from "../../utils/constants";
