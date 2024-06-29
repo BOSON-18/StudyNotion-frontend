@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { apiConnector } from "../services/apiConnector";
+import apiConnector from "../services/operations/apiConnector";
 import { categories } from "../services/api";
 import CourseSlider from "../Components/core/Catalog/CourseSlider";
 import { getCatalogPageData } from "../services/operations/pageAndComponentData";
