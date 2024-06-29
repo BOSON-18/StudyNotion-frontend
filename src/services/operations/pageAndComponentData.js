@@ -1,7 +1,7 @@
 import React from "react";
 import { toast } from "react-hot-toast";
 import { catalogData } from "../api";
-import { apiConnector } from "../apiConnector";
+import apiConnector from "../apiConnector"
 
 
 export const getCatalogPageData = async(categoryId) => {
